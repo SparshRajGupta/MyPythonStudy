@@ -4,5 +4,5 @@ def max (x,y):
     if x < y :
         return y
     if x == y :
-        return 'Equal Nos.'
+        return 'Equal Numbers'
 print max(11,7)
