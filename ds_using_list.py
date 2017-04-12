@@ -4,9 +4,9 @@ print 'I have', len(shoplist),'items to purchase'
 
 print 'These items are: '
 for item in shoplist:
-    print item
+    print item,                                 #trailing comma - indicate end the output with a space instead of the usual line break
 
-print 'I have to buy rice'
+print '\n I have to buy rice'
 shoplist.append('rice')                         #append item to shopping cart
 print 'My shopping list is now: ',shoplist
 
