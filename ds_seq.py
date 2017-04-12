@@ -24,7 +24,3 @@ print 'Charecters 1 to 3 are: ',name[1:3]   #slicing on a string
 print 'Charecters 2 to end: ',name[2:]
 print 'Charecters 1 to -1 are: ',name[1:-1]
 print 'Charecters start to end : ',name[:]
-
-
-
-
